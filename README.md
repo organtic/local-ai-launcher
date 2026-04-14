@@ -31,13 +31,13 @@ Enable Windows process kill rules on launch to free RAM.
 
 1. Download official KoboldCPP and set up AI config profiles.
 2. On first launch, set:
-    KoboldCPP executable path
-    Config folder path
-    Windows auto task-kill list
-    Remove default KoboldCPP configs if needed
-    Add your KoboldCPP config files
-    Optional: auto-run app or browser + URL per profile
-    Optional: override context window per profile
+    KoboldCPP executable path,
+    Config folder path,
+    Windows auto task-kill list,
+    Remove default KoboldCPP configs if needed,
+    Add your KoboldCPP config files,
+    Optional: auto-run app or browser + URL per profile,
+    Optional: override context window per profile,
     Optional: edit global flags in JSON
 
 **Direct JSON editing is supported for fast workflow changes.**
