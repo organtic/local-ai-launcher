@@ -23,8 +23,6 @@ Enable Windows process kill rules on launch to free RAM.
 
 1. Qwen Coder Next + Zed
 2. Qwen 32B Uncensored [100000] [rope] @ firefox.exe
-3. Qwen3 Omni 30B thinker
-4. Qwen 3VL 8B
 
 
 📥 Setup
