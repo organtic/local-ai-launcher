@@ -3,7 +3,8 @@
 (Open source, AS IS)
 
 Lightweight launcher for KoboldCPP configs + auto app or URL execution on launch.
-Create multiple AI configurations for fast switching between locAL AI models and setups.
+
+Create multiple AI configurations for fast switching between models and setups.
 
 
 📁 AI Profiles
@@ -38,8 +39,9 @@ Enable Windows process kill rules on launch to free RAM.
 
 📥 Setup
 
-1. Download official KoboldCPP and set up AI config profiles.
-2. On first launch, set:
+1. Double-click **`Local AI Launcher.bat`** (same folder as `kobold_launcher_config.ps1` and the JSON config files).
+2. Download official KoboldCPP and set up AI config profiles in Kobold.
+3. On first launch, set:
     KoboldCPP executable path,
     Config folder path,
     Windows auto task-kill list,
@@ -47,10 +49,18 @@ Enable Windows process kill rules on launch to free RAM.
     Add your KoboldCPP config files,
     Optional: auto-run app or browser + URL per profile,
     Optional: override context window per profile,
-    Optional: edit global flags in JSON
+    Optional: edit global flags in JSON.
 
 **Direct JSON editing is supported for fast workflow changes.**
 
 🚀 Launch System
 Select any saved profile to launch instantly.
 The launcher applies model path, flags, context size, and system rules before startup.
+
+
+**Security:**
+This project is a local Windows launcher for KoboldCpp. It runs your configuration with full user permissions and does not sandbox execution.
+
+All actions (including app launches, URLs, and process kills) should occur only when you manually launch a profile.
+
+Do not import or merge JSON files, zip bundles, or shared configs from untrusted sources. Always review before use. Build and maintain your own configuration files.
