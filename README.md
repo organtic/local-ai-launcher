@@ -25,7 +25,7 @@ Enable Windows process kill rules on launch to free RAM.
 2. Qwen 3.5 35B [100000] [rope] @ firefox.exe
 3. Qwen 3.5 35B [16000] @ firefox.exe
 4. Qwen 3.5 9B [256000] [rope] + Void
-5. Qwen3 Omni 30B thinker
+5. Qwen 3 Omni 30B thinker
 6. Qwen 2.5 Omni 7B
 7. Gemma 4 26B @ chrome.exe
 8. Gemma 4 E4B @ chrome.exe
