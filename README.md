@@ -3,7 +3,7 @@
 (Open source, AS IS)
 
 Lightweight launcher for KoboldCPP configs + auto app or URL execution on launch.
-Create multiple AI configurations for fast switching between models and setups.
+Create multiple AI configurations for fast switching between locAL AI models and setups.
 
 
 📁 AI Profiles
